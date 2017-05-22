@@ -1,0 +1,50 @@
+Types
+    1. Basic -> Number,Boolean and String
+    2. Complex -> Array, Object and Function. Array and Function are kind of differnt Object
+    3. Another Types -> null, undefined
+        a. undefined -> Doesn't have a value set yet
+
+typeof -> to the type of variable
+    > typeof {}
+    'object'
+    > typeof []
+    'object'
+    > typeof undefined
+    'undefined'
+    > typeof null
+    'object'
+    > typeof function() {}
+    'function'
+    > typeof 4
+    'number'
+    > typeof Number(4)
+    'number'
+    > typeof new Number(4)
+    'object'
+
+
+
+isFinite()
+
+delete obj.proName -> delete the property from the obj
+
+Object.keys(obj1).length -> Returns number of keys in object
+
+Array.isArray(arrName) -> Checks whether its an array or not
+
+*** - Check Array sort() from use Array video
+
+*** - Node functions - setImediate or process.nexttick
+
+// New loop in Array
+arr.forEach(function(value){
+    console.log(value)
+})
+
+// Inheritance
+
+function Child() {}
+Child.prototype = new Parent();
+Child.prototype.__proto__ = Parent.prototype;
+
+NodeJS 2 key global items -> global and process
